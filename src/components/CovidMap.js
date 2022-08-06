@@ -107,7 +107,7 @@ export default function CovidMap(){
     // Important! Always set the container height explicitly
     <div style={{ height: '100vh', width: '100%' }}>
       <GoogleMapReact
-        bootstrapURLKeys={{ key: "AIzaSyCvCgxSkc9_SpmfdqPrznfBVNPzoO2nRYQ" }}
+        bootstrapURLKeys={{ key: }}
         defaultCenter={defaultProps.center}
         defaultZoom={defaultProps.zoom}
         onGoogleApiLoaded = {
